@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marks List</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 50%;
+			margin: 40px auto;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: left;
+		}
+		th {
+			background-color: #f0f0f0;
+		}
+	</style>
+</head>
+<body>
+	<h1>Marks List</h1>
+	<table>
+		<tr>
+			<th>Student Name</th>
+			<th>Subject</th>
+			<th>Marks</th>
+		</tr>
+		<tr>
+			<td>John Doe</td>
+			<td>Mathematics</td>
+			<td>85</td>
+		</tr>
+		<tr>
+			<td>John Doe</td>
+			<td>Science</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Jane Doe</td>
+			<td>Mathematics</td>
+			<td>95</td>
+		</tr>
+		<tr>
+			<td>Jane Doe</td>
+			<td>Science</td>
+			<td>88</td>
+		</tr>
+	</table>
+</body>
+</html>
